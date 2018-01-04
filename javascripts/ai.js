@@ -1,5 +1,5 @@
 //CONFIGURACION SDK PARA AVATAR ANIMADO
-      SDK.applicationId = "<botLibreApplicationID>";
+      SDK.applicationId = "<3443060017385903781>";
       var sdk = new SDKConnection();
       var web = new WebAvatar();
       web.connection = sdk;
@@ -14,7 +14,7 @@
       web.processMessages();
 	  
 //CONFIGURACION DE API.AI
-      var accessToken = "<apiAIaccessToken>";
+      var accessToken = "<49e6d3c1adae4197b1030fa28b7e4a4e>";
       var baseUrl = "https://api.api.ai/v1/";
       $(document).ready(function() {
       $("#chat").keypress(function(event) {
